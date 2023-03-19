@@ -1,0 +1,20 @@
+{
+    "name": "m-gar/php-framework",
+    "autoload": {
+        "psr-4": {
+            "MGar\\PhpFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marosy Gergo",
+            "email": "garry955@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "app\\": "./" 
+        }
+    },
+    "require": {}
+}
